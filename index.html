@@ -3,14 +3,19 @@
     var nome, media;
 
     nome=prompt('Digite o nome do aluno(a): ');
-    media= parsefloat(prompt('Digite a média final do aluno: '));
+    media= ('Digite a média final do aluno: ');
 
-    if(media >= 6){
+    if(media > 6){
         document.write("Esse aluno foi aprovado");
     }
     else
     if(media < 6){
         document.write("Esse aluno foi reprovado");
     }
+    else
+    if(media = 6){
+        document.write("Esse aluno foi reprovado");
+    }
+    
 
 </script>
